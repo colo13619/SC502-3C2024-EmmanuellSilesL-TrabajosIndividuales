@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(199, 197, 194);
+}
+
+.hero{
+
+   background-color: rgb(243, 243, 243); 
+   min-height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   width: 250px;
+   padding: 25px;
+   margin: 20px 200px;
+  
+}
+
+.hero-contenido h2{
+    color: rgb(21, 179, 79);
+}
+
+.testimonio {
+    width: 300px;
+    padding: 30px;
+    margin: 30px auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    
+}
+
+.testimonio h2 {
+    font-size: 22px;
+}
+
+.testimonio p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.testimonio span {
+    color: #888;
+    font-size: 14px;
+}
+
+
+.tarjeta{
+
+    width: 300px;
+    padding: 20px;
+    border:solid 2px #cc6969;
+    margin: 20px;
+    margin: 40px 50px;
+    transition: all ease .35;
+}
+
+.btn{
+    background-color: blue;
+    color: #f4eded;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
